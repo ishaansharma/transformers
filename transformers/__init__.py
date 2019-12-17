@@ -40,7 +40,6 @@ from .model_card import ModelCard
 from .tokenization_utils import (PreTrainedTokenizer)
 from .tokenization_auto import AutoTokenizer
 from .tokenization_bert import BertTokenizer, BertTokenizerFast, BasicTokenizer, WordpieceTokenizer
-from .tokenization_bert import BertTokenizer, BasicTokenizer, WordpieceTokenizer
 from .tokenization_bert_japanese import BertJapaneseTokenizer, MecabTokenizer, CharacterTokenizer
 from .tokenization_openai import OpenAIGPTTokenizer
 from .tokenization_transfo_xl import (TransfoXLTokenizer, TransfoXLCorpus)
